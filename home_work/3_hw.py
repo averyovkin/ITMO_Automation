@@ -54,6 +54,9 @@ def check_posiitve(a, b, c, d, e):
             counter = counter + 1
     return counter
 
+# len(list(filtr(lambda x: x>0, a)))
+# функция FILTR создает новый список из старого: на входе получает список
+# и сравнивает каждый элемент этого списка с выражением
 
 pos = check_posiitve(-5, -19, -5, 7, -2)
 print('Число положительных: ', pos)
