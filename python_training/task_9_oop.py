@@ -81,3 +81,11 @@ obj4 = Link('лок4', 'текст4')
 
 print(obj1.text + ' ' + obj1.loc + ' ' + obj2.text + ' ' + obj2.loc +
       ' ' + obj3.text + ' ' + obj3.loc + ' ' + obj4.text + ' ' + obj4.loc)
+
+
+from python_training.task_9_checks import Checks
+
+
+class Input(Checks):
+    def __int__(self, loc):
+        super().__init__(loc)
